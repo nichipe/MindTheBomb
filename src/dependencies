@@ -1,0 +1,7 @@
+gestione_gioco.o: gestione_gioco.cc debug.h struttura_dati.h \
+ manutenzione.h punteggi.h informazioni.h
+informazioni.o: informazioni.cc debug.h struttura_dati.h
+main.o: main.cc debug.h struttura_dati.h handlers.h gestione_gioco.h \
+ punteggi.h manutenzione.h informazioni.h
+manutenzione.o: manutenzione.cc debug.h struttura_dati.h
+punteggi.o: punteggi.cc debug.h struttura_dati.h
